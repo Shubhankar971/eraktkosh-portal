@@ -1,0 +1,351 @@
+/* ==========================
+   eRaktKosh Portal Main CSS
+========================== */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    font-family:'Poppins',Arial,sans-serif;
+    background:#f5f7fb;
+    color:#333;
+
+}
+
+
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+
+}
+
+
+/* Header */
+
+.header{
+
+    width:100%;
+    background:#c00000;
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 8%;
+
+}
+
+
+.logo{
+
+    font-size:28px;
+    font-weight:700;
+
+}
+
+
+
+.navbar a{
+
+    margin-left:25px;
+    color:white;
+    font-size:16px;
+
+}
+
+
+
+.navbar a:hover{
+
+    color:#ffdada;
+
+}
+
+
+
+/* Hero Section */
+
+
+.hero{
+
+    min-height:80vh;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:60px 8%;
+
+    background:white;
+
+}
+
+
+
+.hero h1{
+
+    font-size:48px;
+    color:#c00000;
+
+}
+
+
+.hero p{
+
+    font-size:18px;
+
+    margin:20px 0;
+
+    line-height:1.6;
+
+}
+
+
+
+.btn{
+
+    display:inline-block;
+
+    background:#c00000;
+
+    color:white;
+
+    padding:14px 30px;
+
+    border-radius:30px;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+
+
+.btn:hover{
+
+    background:#8b0000;
+
+}
+
+
+
+/* Blood Search Card */
+
+
+.search-box{
+
+    background:white;
+
+    width:350px;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+
+
+.search-box h2{
+
+    color:#c00000;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.search-box input,
+.search-box select{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:10px 0;
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+}
+
+
+
+/* Services */
+
+
+.services{
+
+    padding:50px 8%;
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+.card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+
+    transition:.3s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+
+.card h3{
+
+    color:#c00000;
+
+    margin-bottom:15px;
+
+}
+
+
+
+/* Blood Table */
+
+
+table{
+
+    width:90%;
+
+    margin:30px auto;
+
+    border-collapse:collapse;
+
+    background:white;
+
+}
+
+
+
+table th{
+
+    background:#c00000;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+
+table td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+
+
+/* Footer */
+
+
+.footer{
+
+    background:#222;
+
+    color:white;
+
+    padding:25px;
+
+    text-align:center;
+
+}
+
+
+
+/* Responsive */
+
+
+@media(max-width:900px){
+
+
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.hero h1{
+
+    font-size:35px;
+
+}
+
+
+
+.search-box{
+
+    margin-top:30px;
+
+}
+
+
+
+.services{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.header{
+
+    flex-direction:column;
+
+}
+
+
+.navbar{
+
+    margin-top:15px;
+
+}
+
+
+}
